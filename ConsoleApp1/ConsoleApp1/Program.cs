@@ -10,6 +10,7 @@ public class Program
 
         var arr = new int[] { 10, 20, 40 };
         CalculateAndPrintAverage(arr);
+        CalculateAndPrintMax(arr);
 
     }
 
@@ -22,5 +23,18 @@ public class Program
         }
         avg /= arr.Length;
         Console.WriteLine("Average: " + avg);
+    }
+
+    public static void CalculateAndPrintMax(int[] arr)
+    {
+        int max = arr[0];
+        for (int i = 1; i < arr.Length; i++)
+        {
+            if (arr[i] > max)
+            {
+                max = arr[i];
+            }
+        }
+        Console.WriteLine("Max: " + max);
     }
 }
