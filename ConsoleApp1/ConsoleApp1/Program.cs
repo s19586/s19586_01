@@ -1,2 +1,2 @@
 ﻿Console.WriteLine("Hello, World!");
-Console.WriteLine("To jest druga modyfikacja");
+Console.WriteLine("To jest trzecia modyfikacja");
