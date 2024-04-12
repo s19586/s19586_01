@@ -17,9 +17,9 @@ public class Program
     public static void CalculateAndPrintAverage(int[] arr)
     {
         double avg = 0;
-        for (int l = 0; l < arr.Length; l++)
+        for (int k = 0; k < arr.Length; k++)
         {
-            avg += arr[l];
+            avg += arr[k];
         }
         avg /= arr.Length;
         Console.WriteLine("Average: " + avg);
